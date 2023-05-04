@@ -1,0 +1,234 @@
+[Desktop Entry]
+DefaultProfile=Breath2.profile
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Close After Last=false
+Config Revision=10
+Days Meta Infos=30
+Expand Tabs=true
+Last Session=
+Modified Notification=false
+Quick Open List Mode=0
+Quick Open Search Mode=0
+Quickopen List Mode=true
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Show Tabs Close Button=true
+Show Url Nav Bar=true
+Show output view for message type=1
+Startup Session=manual
+Stash new unsaved files=true
+Stash unsaved file changes=false
+Tab Double Click New Document=true
+Tab Middle Click Close Document=true
+Tabbar Tab Limit=0
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/BSD/year_2/trim_2/2201 Network Science Theory/assignments/paris/paris3/pdf/parisLove3.YAML,file:$HOME/BSD/gpas.txt,file:$HOME/dev/kca/java/EmptyWindow.java,file:$HOME/BSD/year_2/trim_3/2306 Principles of Marketing/assignments/assignment II,file:$HOME/BSD/year_2/trim_3/2303 Expert Systems/assignments/reference ass 1.txt
+Recent URLs[$e]=file:$HOME/BSD/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Desktop/,file:$HOME/BSD/year_2/trim_2/2203 Mobile Programming/assignments/,file:$HOME/BSD/year_2/trim_2/2201 Network Science Theory/assignments/paris/paris3/pdf/,file:$HOME/BSD/year_2/trim_3/2303 Expert Systems/assignments/,file:$HOME/BSD/year_2/trim_3/2306 Principles of Marketing/assignments/,file:$HOME/dev/kca/java/,file:$HOME/BSD/year_3/trim_2/
+detailViewIconSize=16
+iconViewIconSize=43
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=false
+Color Theme=Nord
+Font=Droid Sans Mono,12,-1,5,50,0,0,0,0,0
+Line Height Multiplier=1
+Schema=Solarized (dark)
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=true
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Enable Tab completion=false
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=1
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Max Clipboard History Entries=20
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map=true
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Shoe Line Ending Type in Statusbar=false
+Show Documentation With Completion=true
+Show File Encoding=true
+Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
+Show Line Count=false
+Show Scrollbars=0
+Show Statusbar Dictionary=true
+Show Statusbar Highlighting Mode=true
+Show Statusbar Input Mode=true
+Show Statusbar Line Column=true
+Show Statusbar Tab Settings=true
+Show Word Count=false
+Smart Copy Cut=false
+Statusbar Line Column Compact Mode=true
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Replace History=department,netSalary,grossSalary,employeeName,employeeNum,,employeeInfo,<<
+Search History=exclude,cancel,add_products,user,VIRTUAL_ENV_DISABLE_PROMPT,Write-Host,CONDA_PROMPT_MODIFIER,$Env,Env,prompt,path,your path,set to your,desktop-image,background,alias,aliases,departments,martiandegrii,martiandegree,c ZSH_THEME=",ZSH_THEME=",c,git,theme,prompt=,root,Label,ApplicationTitle,title,limitTextWidth,implicitWidth,computedWidth,width,parent.width,label,screen,root.,text,position,horizontal,plasmoid,close,controlButtonsArea,onMoveItemRequested,idle,hover,clicked,bp,array,AlignVCenter,Text,verticalAlignment,dept,net_salary,gross_salary,emp_name,emp_no,Employee_Information,tableWithLines,l1,caps,scroll,kbd,febfffdffbefffff,launch,fan,off,on,wlan,return,alt,super,space,control,shift,sys,set,display,mute,touchpad,lock,toggle,toggle3,function,brightness,meta,font,webFont,night,>>,-200,200,grub,txt,ϟ
+
+[Konsole]
+AutoSyncronize=true
+KonsoleEscKeyBehaviour=true
+KonsoleEscKeyExceptions=vi,vim,nvim
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
+
+[MainWindow]
+1920x1080 screen: Window-Maximized=true
+Height 1080=1048
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=956
+eDP-1 Height 1080=1048
+eDP-1 Height 1920x1080=1012
+eDP-1 Height 1920x1080 eDP-1=1012
+eDP-1 Width 1920=956
+eDP-1 Width 1920x1080=960
+eDP-1 Width 1920x1080 eDP-1=960
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1920x1080=960
+eDP-1 YPosition 1920x1080=57
+eDP1 Height 1080=1020
+eDP1 Height 1920x1080=1019
+eDP1 Width 1920=806
+eDP1 Width 1920x1080=960
+eDP1 XPosition=0
+eDP1 XPosition 1920x1080=0
+eDP1 YPosition=27
+eDP1 YPosition 1920x1080=57
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=Droid Sans Mono,12,-1,5,50,0,0,0,0,0
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+Font=Droid Sans Mono,12,-1,5,50,0,0,0,0,0
+
+[Printing][Text]
+Legend=false
+LineNumbers=false
+
+[UiSettings]
+ColorScheme=Default
+
+[filetree]
+editShade=85,52,100
+listMode=false
+shadingEnabled=true
+showCloseButton=false
+showFullPathOnRoots=false
+showToolbar=true
+sortRole=0
+viewShade=90,42,86

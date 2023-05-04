@@ -1,0 +1,53 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/yitchware/themeing/kde linux/latte/Alkemikal-panel.layout.latte,file:$HOME/yitchware/themeing/kde linux/latte/Alkemikal-upgrade.layout.latte,file:$HOME/yitchware/themeing/kde linux/yitchware start/ywstart.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/distributor-logo-archlinux.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/distributor-logo-archlinux2.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/start-here-mars.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/martianPlainwhite.svg
+Recent URLs[$e]=file:$HOME/yitchware/themeing/kde linux/latte/,file:$HOME/yitchware/themeing/kde linux/,file:$HOME/,file:$HOME/Documents/,file:$HOME/yitchware/themeing/kde linux/yitchware start/,file:$HOME/yitchware/themeing/,file:$HOME/yitchware/
+detailViewIconSize=16
+iconViewIconSize=64
+
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=422
+eDP-1 Width 1920x1080=401
+
+[LatteSettingsDialog]
+downloadWindowSize=980,600
+windowSize=1100,750
+
+[LatteSettingsDialog][DetailsDialog]
+windowSize=560,640
+
+[LatteSettingsDialog][TabLayouts]
+columnWidths=49,508,129,104
+sortColumn=3
+sortOrder=0
+
+[LatteSettingsDialog][ViewsDialog]
+columnWidths=59,256,142,135,131
+sortColumn=2
+sortOrder=0
+windowSize=1920,1048
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=eDP-1:::0,0 1920x1080
+11=VGA-1:::0,0 1366x768
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=true
+contextMenuActionsAlwaysShown=_layouts,_preferences,_quit_latte,_separator1,_add_latte_widgets,_add_view
+inAdvancedModeForEditSettings=true
+inConfigureAppletsMode=true
+isAvailableGeometryBroadcastedToPlasma=true
+launchers=
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+parabolicSpread=3
+parabolicThicknessMarginInfluence=1
+screenTrackerInterval=2500
+showInfoWindow=true
+singleModeLayoutName=Alkemikal-upgrade
+userConfiguredAutostart=true
+version=2

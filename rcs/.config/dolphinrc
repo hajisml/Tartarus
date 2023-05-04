@@ -1,0 +1,146 @@
+Height 1080=1048
+MenuBar=Disabled
+Width 1920=956
+eDP1 Height 1080=675
+eDP1 Width 1920=910
+eDP1 XPosition=735
+eDP1 YPosition=76
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[CreateDialog]
+LastMimeType=application/zip
+
+[Desktop Entry]
+DefaultProfile=Breath2.profile
+
+[DetailsMode]
+SidePadding=0
+
+[DownloadDialog Settings]
+Height 1080=494
+Width 1920=700
+
+[ExtractDialog]
+1920x1080 screen: Height=548
+1920x1080 screen: Width=1269
+DirHistory[$e]=/run/media/halim/SAGE/
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+ConfirmClosingMultipleTabs=false
+GlobalViewProps=false
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowSelectionToggle=false
+ShowZoomSlider=false
+Version=202
+ViewPropsTimestamp=2020,6,10,21,28,39
+
+[IconsMode]
+IconSize=96
+
+[InformationPanel]
+previewsShown=false
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+Recent Files[$e]=file:$HOME,file:$HOME/yitchware/themeing/kde linux/yitchware start/ywfolder.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/martianPlainwhite.svg,file:$HOME/yitchware/logos/martiandegree/wht.png,file:$HOME/yitchware/logos/martiandegree/ytt.png
+Recent URLs[$e]=file:$HOME/yitchware/logos/martiandegree/,file:$HOME/,file:$HOME/yitchware/themeing/kde linux/yitchware start/,file:$HOME/yitchware/themeing/kde linux/,file:///run/media/halim/SAGE/
+detailViewIconSize=16
+iconViewIconSize=43
+
+[KPropertiesDialog]
+1920x1080 screen: Height=406
+1920x1080 screen: Width=446
+Height 1080=470
+VGA-1 Height 1920x1080=606
+VGA-1 Width 1920x1080=483
+Width 1920=464
+eDP-1 Height 1080=544
+eDP-1 Height 1920x1080=394
+eDP-1 Height 1920x1080 eDP-1=548
+eDP-1 Width 1920=471
+eDP-1 Width 1920x1080=370
+eDP-1 Width 1920x1080 eDP-1=495
+eDP1 Height 1080=458
+eDP1 Height 1920x1080=458
+eDP1 Width 1920=569
+eDP1 Width 1920x1080=668
+
+[MainWindow]
+Height 1080=1048
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+VGA-1 Height 1024x768=703
+VGA-1 Height 1920x1080=773
+VGA-1 Width 1024x768=960
+VGA-1 Width 1920x1080=960
+VGA-1 XPosition 1024x768=64
+VGA-1 XPosition 1920x1080=480
+VGA-1 YPosition 1024x768=61
+VGA-1 YPosition 1920x1080=182
+Width 1920=956
+eDP-1 Height 1080=1020
+eDP-1 Height 1920x1080=492
+eDP-1 VGA-1 Height 1920x1080=773
+eDP-1 VGA-1 Width 1920x1080=960
+eDP-1 VGA-1 XPosition 1920x1080=480
+eDP-1 VGA-1 YPosition 1920x1080=182
+eDP-1 Width 1920=1037
+eDP-1 Width 1920x1080=960
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition 1920x1080=64
+eDP1 Height 1080=1020
+eDP1 Height 1920x1080=1019
+eDP1 VGA1 Height 1080=1048
+eDP1 VGA1 Width 1920=956
+eDP1 VGA1 XPosition=4
+eDP1 VGA1 YPosition=32
+eDP1 Width 1920=960
+eDP1 Width 1920x1080=960
+eDP1 XPosition=960
+eDP1 XPosition 1920x1080=665
+eDP1 YPosition=56
+eDP1 YPosition 1920x1080=57
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly
+
+[Notification Messages]
+ConfirmEmptyTrash=true
+
+[Open-with settings]
+CompletionMode=1
+History=vl,kate,inks,kden,ink,vlc,chrom,fire,mpv,tenac,gwen,spec,gephi,Geph,gep
+
+[PlacesPanel]
+IconSize=16
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+
+[Search]
+What=Content
+
+[SettingsDialog]
+Height 1080=450
+Width 1920=572
+eDP-1 Height 1080=440
+eDP-1 Height 1920x1080=440
+eDP-1 Width 1920=589
+eDP-1 Width 1920x1080=589
+eDP1 Height 1080=440
+eDP1 Width 1920=589
+
+[Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Git
