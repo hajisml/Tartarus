@@ -7,7 +7,7 @@ HISTFILE=~/.zsh_history
 
 # source
 plug "$HOME/.config/zsh/aliases.zsh"
-# plug "$HOME/.config/zsh/exports.zsh"
+plug "$HOME/.config/zsh/exports.zsh"
 plug "$HOME/dev/terminal/martian-prompt"
 
 # plugins
