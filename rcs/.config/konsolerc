@@ -31,6 +31,7 @@ iconViewIconSize=43
 RememberWindowSize=false
 
 [MainWindow]
+1280x720 screen: Window-Maximized=true
 1920x1080 screen: Height=588
 1920x1080 screen: Width=999
 1920x1080 screen: XPosition=0

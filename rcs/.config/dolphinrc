@@ -7,7 +7,7 @@ eDP1 XPosition=735
 eDP1 YPosition=76
 
 [$Version]
-update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
 
 [CreateDialog]
 LastMimeType=application/zip
@@ -49,10 +49,10 @@ previewsShown=false
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=16
-Recent Files[$e]=file:$HOME,file:$HOME/yitchware/themeing/kde linux/yitchware start/ywfolder.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/martianPlainwhite.svg,file:$HOME/yitchware/logos/martiandegree/wht.png,file:$HOME/yitchware/logos/martiandegree/ytt.png
-Recent URLs[$e]=file:$HOME/yitchware/logos/martiandegree/,file:$HOME/,file:$HOME/yitchware/themeing/kde linux/yitchware start/,file:$HOME/yitchware/themeing/kde linux/,file:///run/media/halim/SAGE/
+Recent Files[$e]=file:$HOME,file:$HOME/Downloads/logo.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/ywfolder.svg,file:$HOME/yitchware/themeing/kde linux/yitchware start/martianPlainwhite.svg,file:$HOME/yitchware/logos/martiandegree/wht.png,file:$HOME/yitchware/logos/martiandegree/ytt.png
+Recent URLs[$e]=file:$HOME/yitchware/logos/martiandegree/,file:$HOME/,file:$HOME/yitchware/themeing/kde linux/yitchware start/,file:$HOME/yitchware/themeing/kde linux/,file:///run/media/halim/SAGE/,file:$HOME/Downloads/,file:$HOME/Documents/
 detailViewIconSize=16
-iconViewIconSize=43
+iconViewIconSize=48
 
 [KPropertiesDialog]
 1920x1080 screen: Height=576
@@ -124,9 +124,6 @@ IconSize=16
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
-
-[Search]
-What=Content
 
 [SettingsDialog]
 Height 1080=450

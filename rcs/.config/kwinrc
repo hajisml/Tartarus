@@ -67,6 +67,7 @@ BorderActivateClass=9
 
 [Effect-slide]
 HorizontalGap=0
+SlideBackground=false
 VerticalGap=0
 
 [Effect-windowview]
@@ -93,13 +94,16 @@ Mode=Constant
 NightTemperature=5500
 
 [Plugins]
-bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
+desktopchangeosdEnabled=true
 forceblurEnabled=true
 highlightwindowEnabled=true
+kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_translucencyEnabled=true
 minimizeallEnabled=false
+poloniumEnabled=false
+slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 
@@ -112,6 +116,13 @@ ignoreClass=
 keepFloatAbove=false
 monocleMinimizeRest=true
 tileLayoutGap=5
+
+[Script-polonium]
+Borders=3
+FilterProcessName=krunner, yakuake, kded, polkit, plasmashell, scrcpy, emojier, speedcrunch, spectacle
+InsertionPoint=1
+MaximizeSingle=true
+Unfullscreen=true
 
 [SubSession: 7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]
 active=-1
@@ -254,7 +265,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bd455426-91b5-5aa4-b78c-9e21c3c810ab]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Windows]
 BorderlessMaximizedWindows=true
