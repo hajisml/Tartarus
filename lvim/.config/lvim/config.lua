@@ -15,10 +15,6 @@ require("usr.lsp")
 require("usr.treesitter")
 require("usr.whichkey")
 require("usr.theme")
-
-
-
-
-
-
-
+require("usr.swenv")
+require("usr.colorscheme")
+-- require("usr.dressing")

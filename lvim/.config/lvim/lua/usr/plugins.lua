@@ -31,8 +31,24 @@ lvim.plugins = {
   --     })
   --   end
   -- },
+  -- themes
   { "sainnhe/sonokai" },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    }
+  },
   { "sainnhe/everforest" },
   { "sainnhe/edge" },
   { "sainnhe/gruvbox-material" },
+  -- python dev
+  { "AckslD/swenv.nvim" },
+  { "stevearc/dressing.nvim" },
 }
