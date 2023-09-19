@@ -34,7 +34,7 @@ PreloadWeight=0
 
 [Containments][12][Applets][50][Configuration][General]
 isInLatteDock=true
-launchers59=applications:org.kde.dolphin.desktop,applications:firefoxdeveloperedition.desktop,applications:thunderbird.desktop,applications:org.kde.plasma-systemmonitor.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:blender.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:org.inkscape.Inkscape.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:gimp.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:virt-manager.desktop,applications:speedcrunch.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:org.kde.konsole.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:android-studio.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:codium.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:libreoffice-writer.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:obsidian.desktop
+launchers59=applications:org.kde.dolphin.desktop,applications:firefoxdeveloperedition.desktop,applications:brave-browser.desktop,applications:org.mozilla.Thunderbird.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:speedcrunch.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:virt-manager.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:blender.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:org.inkscape.Inkscape.desktop,[ea2a8fc1-fc57-4997-8b51-53f29878a547]\napplications:gimp.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:org.kde.konsole.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:android-studio.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:codium.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:libreoffice-writer.desktop,[7e76d1f8-7e7a-4162-8fe9-3c86e6d9a493]\napplications:obsidian.desktop
 
 [Containments][12][ConfigDialog]
 DialogHeight=600
@@ -101,14 +101,14 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][25][Applets][26][Configuration]
-PreloadWeight=5
+PreloadWeight=60
 
 [Containments][25][Applets][26][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][25][Applets][26][Configuration][General]
-history=#1e1d1d,#f87100,#55a649,#54a548,#3bbfff,#333333,#363636,#333333,#2a2a2a
+history=#f7fafd,#106cb5,#f47b55,#343635,#079773,#088f6e,#1e1d1d,#f87100,#55a649
 
 [Containments][25][Applets][28]
 immutability=1
@@ -123,10 +123,7 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][25][Applets][43][Configuration]
-PreloadWeight=45
-
-[Containments][25][Applets][43][Configuration][Agenda]
-agendaNewEventLastCalendarId=MDAwMzM0NDE5MzU4NTUwMzE3ODU6MDow
+PreloadWeight=100
 
 [Containments][25][Applets][43][Configuration][Calendar]
 monthEventBadgeType=bottomBar
@@ -135,21 +132,18 @@ monthEventBadgeType=bottomBar
 DialogHeight=1016
 DialogWidth=960
 
+[Containments][25][Applets][43][Configuration][Events]
+enabledCalendarPlugins=holidaysevents.so,alternatecalendar.so
+
 [Containments][25][Applets][43][Configuration][General]
 clockTimeFormat1=MMM d, '<font color="#999">'ddd'</font>'  h:mm AP
 v71Migration=true
 v72Migration=true
 
 [Containments][25][Applets][43][Configuration][Google Calendar]
-accessToken=ya29.a0AbVbY6M_GFiXKQ5i3FO4AvCX1AmmIfjHsRRPWpKBmD4BWQo8Hq9eM0KscNHtCBV51OumIf4xmwFy7eDA2gQ5WHZL0goPoEluR50zObFi3AlPRLcKSJaWOfi3dOxWXT5VBWdg0OFH2hNyc5_6HmErXVoGPOqECCvRlgaCgYKAdwSARESFQFWKvPlx8sRGQ3MU14PrPEjG39Egw0169
-accessTokenExpiresAt=2051120294
-accessTokenType=Bearer
-calendarIdList=2r13jcr1ahd2ovgkmfd52hshfkslcsu6@import.calendar.google.com
-calendarList=W3sia2luZCI6ImNhbGVuZGFyI2NhbGVuZGFyTGlzdEVudHJ5IiwiZXRhZyI6IlwiMTYxOTE3MzUzNTkwMjAwMFwiIiwiaWQiOiIxOTAzOTExQHN0dWRlbnRzLmtjYXUuYWMua2UiLCJzdW1tYXJ5IjoiMTkwMzkxMUBzdHVkZW50cy5rY2F1LmFjLmtlIiwidGltZVpvbmUiOiJBZnJpY2EvTmFpcm9iaSIsImNvbG9ySWQiOiIxNCIsImJhY2tncm91bmRDb2xvciI6IiM5ZmUxZTciLCJmb3JlZ3JvdW5kQ29sb3IiOiIjMDAwMDAwIiwic2VsZWN0ZWQiOnRydWUsImFjY2Vzc1JvbGUiOiJvd25lciIsImRlZmF1bHRSZW1pbmRlcnMiOlt7Im1ldGhvZCI6InBvcHVwIiwibWludXRlcyI6MTB9XSwibm90aWZpY2F0aW9uU2V0dGluZ3MiOnsibm90aWZpY2F0aW9ucyI6W3sidHlwZSI6ImV2ZW50Q3JlYXRpb24iLCJtZXRob2QiOiJlbWFpbCJ9LHsidHlwZSI6ImV2ZW50Q2hhbmdlIiwibWV0aG9kIjoiZW1haWwifSx7InR5cGUiOiJldmVudENhbmNlbGxhdGlvbiIsIm1ldGhvZCI6ImVtYWlsIn0seyJ0eXBlIjoiZXZlbnRSZXNwb25zZSIsIm1ldGhvZCI6ImVtYWlsIn1dfSwicHJpbWFyeSI6dHJ1ZSwiY29uZmVyZW5jZVByb3BlcnRpZXMiOnsiYWxsb3dlZENvbmZlcmVuY2VTb2x1dGlvblR5cGVzIjpbImhhbmdvdXRzTWVldCJdfX0seyJraW5kIjoiY2FsZW5kYXIjY2FsZW5kYXJMaXN0RW50cnkiLCJldGFnIjoiXCIxNjU0OTYwOTkyOTA3MDAwXCIiLCJpZCI6ImFkZHJlc3Nib29rI2NvbnRhY3RzQGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbSIsInN1bW1hcnkiOiJCaXJ0aGRheXMiLCJkZXNjcmlwdGlvbiI6IkRpc3BsYXlzIGJpcnRoZGF5cywgYW5uaXZlcnNhcmllcywgYW5kIG90aGVyIGV2ZW50IGRhdGVzIG9mIHBlb3BsZSBpbiBHb29nbGUgQ29udGFjdHMuIiwidGltZVpvbmUiOiJBZnJpY2EvTmFpcm9iaSIsImNvbG9ySWQiOiIxMyIsImJhY2tncm91bmRDb2xvciI6IiM5MmUxYzAiLCJmb3JlZ3JvdW5kQ29sb3IiOiIjMDAwMDAwIiwic2VsZWN0ZWQiOnRydWUsImFjY2Vzc1JvbGUiOiJyZWFkZXIiLCJkZWZhdWx0UmVtaW5kZXJzIjpbXSwiY29uZmVyZW5jZVByb3BlcnRpZXMiOnsiYWxsb3dlZENvbmZlcmVuY2VTb2x1dGlvblR5cGVzIjpbImhhbmdvdXRzTWVldCJdfX0seyJraW5kIjoiY2FsZW5kYXIjY2FsZW5kYXJMaXN0RW50cnkiLCJldGFnIjoiXCIxNjU0OTYwOTkyOTA3MDAwXCIiLCJpZCI6ImVuLmtlI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29tIiwic3VtbWFyeSI6IkhvbGlkYXlzIGluIEtlbnlhIiwiZGVzY3JpcHRpb24iOiJIb2xpZGF5cyBhbmQgT2JzZXJ2YW5jZXMgaW4gS2VueWEiLCJ0aW1lWm9uZSI6IkFmcmljYS9OYWlyb2JpIiwiY29sb3JJZCI6IjgiLCJiYWNrZ3JvdW5kQ29sb3IiOiIjMTZhNzY1IiwiZm9yZWdyb3VuZENvbG9yIjoiIzAwMDAwMCIsInNlbGVjdGVkIjp0cnVlLCJhY2Nlc3NSb2xlIjoicmVhZGVyIiwiZGVmYXVsdFJlbWluZGVycyI6W10sImNvbmZlcmVuY2VQcm9wZXJ0aWVzIjp7ImFsbG93ZWRDb25mZXJlbmNlU29sdXRpb25UeXBlcyI6WyJoYW5nb3V0c01lZXQiXX19LHsia2luZCI6ImNhbGVuZGFyI2NhbGVuZGFyTGlzdEVudHJ5IiwiZXRhZyI6IlwiMTY1NDk2MTk4MDc4MDAwMFwiIiwiaWQiOiIycjEzamNyMWFoZDJvdmdrbWZkNTJoc2hma3NsY3N1NkBpbXBvcnQuY2FsZW5kYXIuZ29vZ2xlLmNvbSIsInN1bW1hcnkiOiJodHRwczovL3ZpcnR1YWxjYW1wdXMua2NhdS5hYy5rZS9jYWxlbmRhci9leHBvcnRfZXhlY3V0ZS5waHA/dXNlcmlkPTc1NTQmYXV0aHRva2VuPTdiY2VlZTA3ZDQ2MTQ0MTQ0ZjI1MDI1YTRjZWE0MWM0M2RkZDk5ZWEmcHJlc2V0X3doYXQ9YWxsJnByZXNldF90aW1lPWN1c3RvbSIsInRpbWVab25lIjoiVVRDIiwic3VtbWFyeU92ZXJyaWRlIjoiQlNEIiwiY29sb3JJZCI6IjExIiwiYmFja2dyb3VuZENvbG9yIjoiI2ZiZTk4MyIsImZvcmVncm91bmRDb2xvciI6IiMwMDAwMDAiLCJzZWxlY3RlZCI6dHJ1ZSwiYWNjZXNzUm9sZSI6InJlYWRlciIsImRlZmF1bHRSZW1pbmRlcnMiOltdLCJjb25mZXJlbmNlUHJvcGVydGllcyI6eyJhbGxvd2VkQ29uZmVyZW5jZVNvbHV0aW9uVHlwZXMiOlsiaGFuZ291dHNNZWV0Il19fV0=
-refreshToken=1//03j77h1qN7IY-CgYIARAAGAMSNwF-L9IrGU63r5VmMWyxrNVP-mRD5TtmDRCV3ycN-Spj7QrOB5mbzut1c08QFZYdsARDvcPOixs
-sessionClientId=391436299960-k0s16nm589meovhoblpcquqgbbrena17.apps.googleusercontent.com
-sessionClientSecret=Gdr_7lKIQuGBD4Up3MOiw-7i
-tasklistList=W3sia2luZCI6InRhc2tzI3Rhc2tMaXN0IiwiaWQiOiJNREF3TXpNME5ERTVNelU0TlRVd016RTNPRFU2TURvdyIsImV0YWciOiJcIkxUSTVOVGd4TkRFMFwiIiwidGl0bGUiOiJNeSBUYXNrcyIsInVwZGF0ZWQiOiIyMDIxLTA0LTIzVDEwOjE4OjA4Ljc3MVoiLCJzZWxmTGluayI6Imh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL3Rhc2tzL3YxL3VzZXJzL0BtZS9saXN0cy9NREF3TXpNME5ERTVNelU0TlRVd016RTNPRFU2TURvdyJ9XQ==
+calendarIdList=
+calendarList=W10=
+tasklistList=W10=
 
 [Containments][25][Applets][43][Configuration][Weather]
 openWeatherMapCityId=184745
@@ -300,7 +294,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][29][Applets][32][Configuration]
-PreloadWeight=20
+PreloadWeight=45
 
 [Containments][29][Applets][33]
 immutability=1
@@ -332,7 +326,7 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][29][Applets][35][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][29][Applets][36]
 immutability=1
@@ -360,11 +354,14 @@ immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][29][Applets][39][Configuration]
-PreloadWeight=0
+PreloadWeight=35
 
 [Containments][29][Applets][39][Configuration][ConfigDialog]
 DialogHeight=1016
 DialogWidth=1920
+
+[Containments][29][Applets][39][Configuration][General]
+key=Num Lock
 
 [Containments][29][Applets][40]
 immutability=1
@@ -399,7 +396,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][29][Applets][52][Configuration]
-PreloadWeight=0
+PreloadWeight=6
 
 [Containments][29][ConfigDialog]
 DialogHeight=1048
