@@ -27,5 +27,6 @@ alias free='free -m'
 alias egrep='egrep --color=auto'
 
 # custom
+alias code='vscodium'
 alias vimtutor='nvim +Tutor'
 alias notify='paplay $HOME/yitchware/sounds/notifications/google.ogg'
