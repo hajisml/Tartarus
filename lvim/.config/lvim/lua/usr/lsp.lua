@@ -45,6 +45,7 @@ formatters.setup {
   { command = "black",   filetypes = { "python" } },
   { command = "rustfmt", filetypes = { "rust" } },
   { command = "shfmt",   filetypes = { "sh" } },
+  { command = "gofumpt", filetypes = { "go" } },
   {
     -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
     command = "prettier",

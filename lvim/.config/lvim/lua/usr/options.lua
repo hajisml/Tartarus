@@ -5,5 +5,6 @@ lvim.transparent_window = true
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = true
 lvim.colorscheme = "gruvbox-material"
+vim.opt.relativenumber = true
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false

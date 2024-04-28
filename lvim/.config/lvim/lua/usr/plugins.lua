@@ -51,4 +51,21 @@ lvim.plugins = {
   -- python dev
   { "AckslD/swenv.nvim" },
   { "stevearc/dressing.nvim" },
+  -- python dap
+  {
+    "mfussenegger/nvim-dap-python",
+    "nvim-neotest/neotest",
+    "nvim-neotest/nvim-nio",
+    "nvim-neotest/neotest-python",
+  },
+  -- flutter dev
+  {
+    'akinsho/flutter-tools.nvim',
+    lazy = false,
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
+    config = true,
+  }
 }
