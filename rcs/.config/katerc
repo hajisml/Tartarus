@@ -47,8 +47,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/BSD/year_2/trim_2/2201 Network Science Theory/assignments/paris/paris3/pdf/parisLove3.YAML,file:$HOME/yitchware/themeing/kde linux/kate/ayu Darkiiz.theme,file:$HOME/yitchware/themeing/kde linux/kate/ayu Darkii.theme,file:$HOME/BSD/gpas.txt,file:$HOME/dev/kca/java/EmptyWindow.java,file:$HOME/BSD/year_2/trim_3/2306 Principles of Marketing/assignments/assignment II,file:$HOME/BSD/year_2/trim_3/2303 Expert Systems/assignments/reference ass 1.txt
-Recent URLs[$e]=file:$HOME/Documents/,file:$HOME/Desktop/,file:$HOME/BSD/year_2/trim_2/2203 Mobile Programming/assignments/,file:$HOME/BSD/year_2/trim_2/2201 Network Science Theory/assignments/paris/paris3/pdf/,file:$HOME/BSD/year_2/trim_3/2303 Expert Systems/assignments/,file:$HOME/BSD/year_2/trim_3/2306 Principles of Marketing/assignments/,file:$HOME/dev/kca/java/,file:$HOME/BSD/year_3/trim_2/,file:$HOME/yitchware/themeing/kde linux/kate/,file:$HOME/yitchware/themeing/kde linux/,file:$HOME/yitchware/themeing/
+Recent Files[$e]=file:$HOME/BSD/year_2/trim_2/2201 Network Science Theory/assignments/paris/paris3/pdf/parisLove3.YAML,file:$HOME/BSD/year_3/trim_3/3301 Industrial Attachment/supervisor retastks,file:$HOME/BSD/year_3/trim_3/3301 Industrial Attachment/supervisor reports,file:$HOME/yitchware/themeing/kde linux/kate/ayu Darkiiz.theme,file:$HOME/yitchware/themeing/kde linux/kate/ayu Darkii.theme,file:$HOME/BSD/gpas.txt,file:$HOME/dev/kca/java/EmptyWindow.java,file:$HOME/BSD/year_2/trim_3/2306 Principles of Marketing/assignments/assignment II,file:$HOME/BSD/year_2/trim_3/2303 Expert Systems/assignments/reference ass 1.txt
+Recent URLs[$e]=file:$HOME/BSD/year_2/trim_2/2203 Mobile Programming/assignments/,file:$HOME/BSD/year_2/trim_2/2201 Network Science Theory/assignments/paris/paris3/pdf/,file:$HOME/BSD/year_2/trim_3/2303 Expert Systems/assignments/,file:$HOME/BSD/year_2/trim_3/2306 Principles of Marketing/assignments/,file:$HOME/dev/kca/java/,file:$HOME/BSD/year_3/trim_2/,file:$HOME/yitchware/themeing/kde linux/kate/,file:$HOME/yitchware/themeing/kde linux/,file:$HOME/yitchware/themeing/,file:$HOME/BSD/year_3/trim_3/3301 Industrial Attachment/
 detailViewIconSize=16
 iconViewIconSize=48
 
@@ -187,6 +187,7 @@ SetEditor=false
 [MainWindow]
 1920x1080 screen: Height=1012
 1920x1080 screen: Width=960
+1920x1080 screen: Window-Maximized=true
 Height 1080=1048
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAAB4AAAAQYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgAAAAIr/////wAAAAAAAAAA
@@ -242,7 +243,7 @@ Legend=false
 LineNumbers=false
 
 [UiSettings]
-ColorScheme=Default
+ColorScheme=Breeze Classic
 
 [filetree]
 editShade=85,52,100

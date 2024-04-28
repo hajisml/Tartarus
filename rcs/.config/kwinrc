@@ -119,7 +119,8 @@ tileLayoutGap=5
 
 [Script-polonium]
 Borders=3
-FilterProcessName=krunner, yakuake, kded, polkit, plasmashell, scrcpy, emojier, speedcrunch, spectacle
+DefaultEngine=1
+FilterProcessName=krunner, yakuake, kded, polkit, plasmashell, scrcpy, emojier, speedcrunch, spectacle, telegram, settings
 InsertionPoint=1
 MaximizeSingle=true
 Unfullscreen=true
@@ -259,13 +260,13 @@ BorderAlternativeActivate=9
 TouchBorderActivate=9
 
 [Tiling]
-padding=4
+padding=6
 
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bd455426-91b5-5aa4-b78c-9e21c3c810ab]
-tiles={"layoutDirection":"horizontal","tiles":[]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"layoutDirection":"vertical","tiles":[{"height":0.25},{"height":0.25},{"height":0.25},{"height":0.25}],"width":0.5}]}
 
 [Windows]
 BorderlessMaximizedWindows=true

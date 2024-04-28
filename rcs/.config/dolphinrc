@@ -42,6 +42,7 @@ ViewPropsTimestamp=2020,6,10,21,28,39
 
 [IconsMode]
 IconSize=96
+PreviewSize=96
 
 [InformationPanel]
 previewsShown=false
@@ -124,6 +125,9 @@ IconSize=16
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
 
 [SettingsDialog]
 Height 1080=450
