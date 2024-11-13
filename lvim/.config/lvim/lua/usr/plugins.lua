@@ -31,12 +31,36 @@ lvim.plugins = {
   --     })
   --   end
   -- },
-  -- themes
-  { "sainnhe/sonokai" },
+
+  -- THEMES
+  { "lunarvim/onedarker" },
+  { "lunarvim/darkplus.nvim" },
   {
-    "folke/tokyonight.nvim",
+    "ChristianChiarulli/defaultplus",
+    -- lazy = false,    -- make sure we load this during startup if it is your main colorscheme
+    -- priority = 1000, -- make sure to load this before all the other start plugins
+    vim.cmd.colorscheme('defaultplus')
+  },
+  { "sainnhe/sonokai" },
+  { "sainnhe/everforest" },
+  { "sainnhe/gruvbox-material" },
+  {
+    'sainnhe/edge',
     lazy = false,
     priority = 1000,
+    config = function()
+      -- Optionally configure and load the colorscheme
+      -- directly inside the plugin declaration.
+      vim.g.edge_enable_italic = true
+      -- vim.g.edge_style = 'aura'
+      -- vim.g.edge_better_performance = 1
+      -- vim.cmd.colorscheme('edge')
+    end
+  },
+  {
+    "folke/tokyonight.nvim",
+    -- lazy = false,
+    -- priority = 1000,
     opts = {
       transparent = true,
       styles = {
@@ -45,9 +69,7 @@ lvim.plugins = {
       },
     }
   },
-  { "sainnhe/everforest" },
-  { "sainnhe/edge" },
-  { "sainnhe/gruvbox-material" },
+  -- PYTHON IDE
   -- python dev
   { "AckslD/swenv.nvim" },
   { "stevearc/dressing.nvim" },
@@ -58,6 +80,7 @@ lvim.plugins = {
     "nvim-neotest/nvim-nio",
     "nvim-neotest/neotest-python",
   },
+  -- DART IDE
   -- flutter dev
   {
     'akinsho/flutter-tools.nvim',
@@ -67,5 +90,44 @@ lvim.plugins = {
       'stevearc/dressing.nvim', -- optional for vim.ui.select
     },
     config = true,
+  },
+  -- MISC
+  {
+    'mawkler/modicator.nvim',
+    event = "ModeChanged",
+    dependencies = {
+      'sainnhe/edge',
+    },
+    init = function()
+      -- These are required for Modicator to work
+      vim.o.cursorline = true
+      vim.o.number = true
+      vim.o.termguicolors = true
+    end,
+    opts = {
+      -- Warn if any required option above is missing. May emit false positives
+      -- if some other plugin modifies them, which in that case you can just
+      -- ignore. Feel free to remove this line after you've gotten Modicator to
+      -- work properly.
+      -- show_warnings = true,
+      highlights = {
+        -- Default options for bold/italic
+        defaults = {
+          bold = false,
+          italic = false,
+        },
+        -- Use `CursorLine`'s background color for `CursorLineNr`'s background
+        use_cursorline_background = false,
+      },
+      integration = {
+        lualine = {
+          enabled = true,
+          -- Letter of lualine section to use (if `nil`, gets detected automatically)
+          mode_section = 'a',
+          -- Whether to use lualine's mode highlight's foreground or background
+          highlight = 'bg',
+        },
+      },
+    },
   }
 }
