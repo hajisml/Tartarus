@@ -15,4 +15,6 @@ export PATH=$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH
 export PATH=/opt/lynxkite-4.2.2/bin:$PATH
 export PATH=$HOME/.local/share/flutter/bin:$PATH
 export PATH=$HOME/perl5/bin:$PATH
-
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
